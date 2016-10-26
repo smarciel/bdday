@@ -5,13 +5,9 @@
   transition:all 0.3s ease 9999s;
 }
 
-.title:hover {
+.title-anim {
   transform: translateY(-100px);
   transition-delay: 0s;
-}
-
-.title:hover .image-hovered {
-  display: block;
 }
 
 .title p {
