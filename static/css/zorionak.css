@@ -1,0 +1,16 @@
+h1 a {
+  color: #FCA205;
+}
+
+body {
+  margin: 0px;
+
+}
+
+body::after {
+  background-image: url("../images/back.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.5;
+  filter: alpha(opacity=40);
+}
